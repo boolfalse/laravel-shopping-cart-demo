@@ -79,7 +79,7 @@
 
     <footer>
       <div class="container">
-        <p class="text-muted">By <a href="http://andremadarang.com">Andre Madarang</a></p>
+        <p class="text-muted">Made by <a href="https://facebook.com/boolfalse">Boolfalse</a></p>
       </div>
     </footer>
 

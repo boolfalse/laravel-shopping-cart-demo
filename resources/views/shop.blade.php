@@ -20,8 +20,8 @@
             <h2>Laravel Shopping Cart Example</h2>
             <p>An example Laravel App that demos the basic functionality of a typical e-commerce shopping cart.</p>
             <p>
-                <a href="http://andremadarang.com/implementing-a-shopping-cart-in-laravel/" class="btn btn-primary btn-lg" target="_blank">Blog Post</a>
-                <a href="https://github.com/drehimself/laravel-shopping-cart-example" class="btn btn-success btn-lg" target="_blank">GitHub Repo</a>
+                <a href="#" class="btn btn-primary btn-lg" target="_blank">Button</a>
+                <a href="https://github.com/boolfalse/laravel-shopping-cart" class="btn btn-success btn-lg" target="_blank">GitHub Repo</a>
             </p>
         </div> <!-- end jumbotron -->
 
