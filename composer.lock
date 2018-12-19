@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78fbfcb5bf1076971cde87022b66c183",
+    "content-hash": "830ab04b229a0244778a769d1a8674ce",
     "packages": [
         {
             "name": "boolfalse/clearcaches",
@@ -39,6 +39,63 @@
             ],
             "description": "Package for recreating Laravel all caches, and for dropping all DB tables",
             "time": "2018-10-01T11:52:46+00:00"
+        },
+        {
+            "name": "boolfalse/laravel-shopping-cart",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boolfalse/laravel-shopping-cart.git",
+                "reference": "1f7c02846f970ded5ff6401cba5d0345e1f227b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boolfalse/laravel-shopping-cart/zipball/1f7c02846f970ded5ff6401cba5d0345e1f227b3",
+                "reference": "1f7c02846f970ded5ff6401cba5d0345e1f227b3",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/events": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
+                "illuminate/session": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
+                "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.0",
+                "orchestra/testbench": "~3.1",
+                "phpunit/phpunit": "~5.0|~6.0|~7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Boolfalse\\LaravelShoppingCart\\LSCServiceProvider"
+                    ],
+                    "aliases": {
+                        "Cart": "Boolfalse\\LaravelShoppingCart\\Facades\\Cart"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Boolfalse\\LaravelShoppingCart\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "boolfalse",
+                    "email": "boolfalse@mail.ru"
+                }
+            ],
+            "description": "Laravel Shopping Cart",
+            "keywords": [
+                "laravel",
+                "shopping"
+            ],
+            "time": "2018-12-19T18:03:23+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -4963,7 +5020,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "boolfalse/laravel-shopping-cart": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
